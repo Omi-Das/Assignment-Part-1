@@ -358,12 +358,11 @@ margin-bottom: 40px;
 }
 #black .kno{
     display: flex;
-    gap: 1001px;
      align-items: center; 
      width:84%;
      justify-content: space-between;
-     margin-bottom: 73.5px;
-     padding-left: 40px;
+     margin-bottom: 83.5px;
+     padding-left: 110px;
 }
 #black .kno .knowledge{
   width: 139px;
