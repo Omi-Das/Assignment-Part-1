@@ -209,3 +209,65 @@
  margin-left: auto;
  margin-right: auto;
 }
+#brain-section{
+    margin: 120px 120px 120px 120px;
+    text-align: center;
+}
+#brain-section .sec{
+display: flex;
+gap:60px;
+/* justify-content: space-around; */
+margin-right: 200px;
+}
+#brain-section .sec .img img{
+    width: 600px;
+    height:600px;
+}
+#brain-section .sec .box-brain{
+    margin: 102px 0 102px 0;
+    width:700px;
+    /* color:white; */
+}
+#brain-section .sec .box-brain .title h5{
+color: #30B868;
+text-align: left;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+margin-bottom: 16px;
+}
+#brain-section .sec .box-brain .info h4{
+color: #001931;
+text-align: left;
+font-size: 48px;
+font-weight: bold;
+line-height: 58px;
+margin-bottom: 16px;
+/* height: 116px; */
+}
+#brain-section .sec .box-brain .details p{
+color: #627382;
+text-align: left;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+margin-bottom: 40px;
+}
+
+
+
+#brain-section .sec .box-brain .list .l
+{
+    display: flex;
+    gap: 6px;
+    /* text-align: center; */
+    align-items: center;
+}
+#brain-section .sec .box-brain .list .l img,p
+{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    letter-spacing: 0%;
+    text-align:left;
+}
