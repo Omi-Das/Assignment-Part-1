@@ -341,3 +341,71 @@ margin-bottom: 40px;
     align-items: center;
     color: #627382;
 }
+#black{
+    background-color: #172735;
+    margin: 0 auto;
+    width:1538px;
+    height:330px;
+    padding: 120px 0 38px 0;
+   align-items: center;
+}
+#black .kno{
+    display: flex;
+    gap: 1001px;
+     align-items: center; 
+     /* margin:120px; */
+     width:84%;
+     justify-content: space-between;
+     /* text-align: right; */
+     margin-bottom: 73.5px;
+     /* margin-top: 120px; */
+     padding-left: 40px;
+     /* padding-right: 20px; */
+}
+#black .kno .knowledge{
+  width: 139px;
+    /* margin:120px 0px 83.5px 20px; */
+}
+#black .kno .social {
+    color:white;
+    font-size: 20px;
+    font-weight:500px;
+}
+#black .kno .social h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white; 
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 28px;
+
+}
+#black .kno .social .social-links{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+}
+#black .kno .social i {
+    background-color: white; 
+    /* padding: 20px;  */
+    border-radius: 50%;
+    text-align: center; 
+    /* gap:16px */
+    justify-content: space-around;
+    color: black;
+}
+#black hr {
+    border: none;
+    border-top: 1px solid #627382; 
+    margin: 40px auto 20px auto; 
+    max-width: 1360px;
+    width: 84%;
+}
+#black small{
+     color: #fafafa;           /* হালকা ধূসর রঙ */
+    font-size: 16px;
+    margin-top: 0;
+    font-weight: 400;
+    line-height: 24px;
+    /* text-align: center; */
+}
