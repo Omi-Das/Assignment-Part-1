@@ -135,3 +135,77 @@
     background: url(../assets/hero-bg.png);
     vertical-align: middle;
 }
+#notes{
+    margin: 0 auto;
+    text-align: center;
+    /* padding: auto; */
+}
+#notes .title h3{
+    margin-top: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 16px;
+
+}
+#notes .info p{
+    font-size: 16px;
+ line-height: 20px;
+    color: #627382;
+    /* margin-bottom: 44px; */
+      margin-bottom: 24px;
+      text-align: center;
+
+}
+
+#notes-container {
+    display: flex;
+    gap: 24px; 
+    justify-content: space-between;
+    /* max-width: 1360px;
+    width:84%; */
+    margin: 44px 120px 0px 120px;
+     align-items: center;
+    /* padding: 69.5px 131px 0px 131px; */
+} 
+.box {
+    text-align: center;
+    box-shadow: 0 0 8px 0 rgb(240, 237, 237);
+    width: 300px;
+    /* height: 322px; */
+    padding: 70px 0;
+}
+#notes-container .box .icons{
+    width: 50px;
+    height:50px;
+    border-radius:50%;
+    margin-bottom: 16px;
+    background-color: #F95555;
+    /* justify-content: space-between; */
+    /* text-align: justify; */
+    /* align-items: center; */
+    /* padding: 69.5px 131px 0px 131px; */
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+#notes-container .box .i-title{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #001931;
+}
+#notes-container .box .i-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+ text-align: center;
+ width: 274px;
+ width:84%;
+ margin-left: auto;
+ margin-right: auto;
+}
