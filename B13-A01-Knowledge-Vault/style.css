@@ -149,7 +149,7 @@ background-color: #785353;
     height: 20px;
 }
 #banner{
-    background: url(../assets/hero-bg.png);
+    background: url(/B13-A01-Knowledge-Vault/assets/hero-bg.png);
     vertical-align: middle;
 }
 #notes{
