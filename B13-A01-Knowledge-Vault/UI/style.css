@@ -42,6 +42,9 @@
     font-weight: 600;
     cursor: pointer;
 }
+#navbar .nav-buttons .btn:hover{
+background-color: #785353;
+}
 #banner{
     padding: 154.5px 341px 179.5px 341px;
     margin: 0 auto;
@@ -71,42 +74,48 @@
     gap: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
+#banner .title button:hover {
+    background-color: #785353; 
+    
+}
+.content button {
+    background-color: transparent;
+   display: flex;                
+   align-items: center;    
+   gap: 6px;               
+   color: white;              
+    /* border: 1px solid white;        */
+   padding: 10px 20px;        
+   border-radius: 4px;      
+    font-size: 16px;         
+    cursor: pointer;     
+}
+
+
+#container .grn-content button:hover {
+    background-color: #785353;
+}
+
 
 #banner .title-info {
     color:#ffffff;
     font-size:x-large;
     font-weight: bold;
     margin-bottom: 16px;
-    /* width: 770px;
-    height: 168px;  */
 }
 #banner .diff{
     color:#30B868
 }
 #banner .title-details p{
-    /* margin-right: 674.5px;  */
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 32px;
-    /* border: 1px solid red ; */
-    /* margin-left: 674.5px; */
-    /* justify-content: space-around; */
-    /* text-align: center; */
-    /* width: 693px;
-    height:60px; */
     line-height: 24px;
-    /* justify-content: center; */
-    /* justify-content: space-around; */
     text-align: center;
 }
 #container{
     display: flex;
     gap:16px;
-    /* justify-content: space-around; */
-    /* text-align: justify; */
-    /* justify-content: space-around; */
-    /* text-align: center; */
-    /* margin:0 auto; */
     justify-content: center;
 }
 #container .grn-content button{
@@ -124,7 +133,6 @@
     border:1px solid #FFFFFF;
     font-size: 16px;
     font-weight: 600;
-    /* background-color: white; */
     line-height: 18px;
     color:white;
     border-radius: 4px;
@@ -132,11 +140,12 @@
 }
 #container .grn-content button {
     display: flex;
-    /* margin-top: 16px; */
     gap: 10px;
 }
+#container .content button:hover {
+    background-color: #785353;
+}
 #container .grn-content button img{
-    /* margin-top: 16px; */
     width: 20px;
     height: 20px;
 }
