@@ -45,3 +45,93 @@
     font-weight: 600;
     cursor: pointer;
 }
+#banner{
+    padding: 154.5px 341px 179.5px 341px;
+     /* padding: 70px 120px 134px 120px; */
+    margin: 0 auto;
+    text-align: center;
+}
+#banner .title button{
+    width: 229px;
+    height:35px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding:8px 12px 8px 32px;
+    color:#30B868;
+    border: none;
+    border-radius: 1000px;
+    background-color: white;
+    cursor: pointer;
+}
+#banner .title-info {
+    color:#ffffff;
+    font-size:x-large;
+    font-weight: bold;
+    margin-bottom: 16px;
+    /* width: 770px;
+    height: 168px;  */
+}
+#banner .diff{
+    color:#30B868
+}
+#banner .title-details p{
+    /* margin-right: 674.5px;  */
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 32px;
+    /* border: 1px solid red ; */
+    /* margin-left: 674.5px; */
+    /* justify-content: space-around; */
+    /* text-align: center; */
+    /* width: 693px;
+    height:60px; */
+    line-height: 24px;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    text-align: center;
+}
+#container{
+    display: flex;
+    gap:16px;
+    /* justify-content: space-around; */
+    /* text-align: justify; */
+    /* justify-content: space-around; */
+    /* text-align: center; */
+    /* margin:0 auto; */
+    justify-content: center;
+}
+#container .grn-content button{
+    padding:16.5px 46px 16.5px 16px;
+    border:none;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    background-color: #30B868;
+    color:white;
+}
+#container .content button{
+    padding:16.5px 16px 16.5px 46px;
+    border:1px solid #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    /* background-color: white; */
+    line-height: 18px;
+    color:white;
+    border-radius: 4px;
+    background-color: transparent;
+}
+#container .grn-content button {
+    display: flex;
+    /* margin-top: 16px; */
+    gap: 10px;
+}
+#container .grn-content button img{
+    /* margin-top: 16px; */
+    width: 20px;
+    height: 20px;
+}
+#banner{
+    background: url(../assets/hero-bg.png);
+    vertical-align: middle;
+}
